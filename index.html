@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>studio-hwebdew</title>
+    <!-- 스와이퍼 swiper cdn연결하여 사용하기 
+        https://swiperjs.com/get-started#use-swiper-from-cdn -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href="lib/carouselTicker.css" rel="stylesheet" type="text/css"/>
+
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/common.css" rel="stylesheet" type="text/css" />
+    <link href="css/main.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <main>
+        <div class="main_visual">
+            <div class="title">
+                <p>web design class</p>
+                <h2>Ha Su Jeong Designer</h2>
+            </div>
+            <p>HWDD by hasujeong</p>
+        </div><!-- .main_visual -->
+
+        <section class="cont01">
+            <div>
+                <article>
+                    <a href="#">
+                        <img src="img/study01.jpg" alt="웹 코딩 수업" />
+                        <dl>
+                            <dt>웹 코딩 수업</dt>
+                            <dd>웹디자인 과정에서<br />
+                                웹페이지 구현을 위한 웹코딩 강좌</dd>
+                        </dl>
+                    </a>
+                </article>
+                <article>
+                    <a href="#">
+                        <img src="img/study02.jpg" alt="포토샵/일러스트 수업" />
+                        <dl>
+                            <dt>포토샵/일러스트 수업</dt>
+                            <dd>웹디자인 과정에서<br />
+                                디자인 구성과 설계를 위한 강좌</dd>
+                        </dl>
+                    </a>
+                </article>
+                <article>
+                    <a href="#">
+                        <img src="img/study03.jpg" alt="웹페이지 실무 자료" />
+                        <dl>
+                            <dt>웹페이지 실무 자료</dt>
+                            <dd>웹디자인 과정에서<br />
+                                웹페이지 구현을 위한 디자인/코딩</dd>
+                        </dl>
+                    </a>
+                </article>
+                <article>
+                    <a href="#">
+                        <img src="img/study04.jpg" alt="웹 코딩 수업" />
+                        <dl>
+                            <dt>ncs 수업</dt>
+                            <dd>웹디자인 과정에서<br />
+                                실무에서 필요한 지식 및 스킬에 대한 ncs수업</dd>
+                        </dl>
+                    </a>
+                </article>
+            </div>
+        </section><!-- .cont01 -->
+
+        <section class="cont02">
+            <div class="cont02_wrap">
+                <div class="left">
+                    <article class="title">                 
+                        <h3>웹디자이너<br />즐겨찾기</h3>
+                        <p>웹디자인 제작시 활용하기 좋은 사이트 확장/설치 프로그램</p>
+                    </article><!-- .title end -->
+                    <article>
+                        <a href="#">
+                            <img src="img/book_01.jpg" alt="디자인 공부하기 좋은 사이트 이미지" />
+                            <p>디자인 공부하기 좋은 사이트</p>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="#">
+                            <img src="img/book_02.jpg" alt="디자인프로그램 및 구글 확장프로그램" />
+                            <p>구글 확장 및 디자인 프로그램</p>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="#">
+                            <img src="img/book_03.jpg" alt="디자인 및 코딩의 무료 소스 제공 사이트" />
+                            <p>무료 소스 제공 사이트</p>
+                        </a>
+                    </article>
+                </div><!-- .left end -->
+                <div class="right">
+                    <div class="swiper-container mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="img/book_slider.jpg" alt="슬라이드" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/book_slider.jpg" alt="슬라이드" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/book_slider.jpg" alt="슬라이드" />
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div><!-- .right end -->
+            </div><!-- cont02_wrap end -->
+        </section><!-- .cont02 end -->
+        <section class="cont03">
+            <article>
+                <img src="img/good.jpg" alt="알아두면 좋은 정보들" />
+                <div class="title">
+                    <div>
+                        <h3>알아두면 좋은 정보들</h3>
+                        <p>디자인 및 코딩방법 뿐만 아니라 알아두면 도움되는<br />
+                            정보들을 제공하고 있습니다</p>
+                        <a href="#" class="btn" title="바로가기">바로가기</a>
+                    </div>
+                </div>
+            </article>
+        </section><!-- .cont03 end -->
+        <section class="cont04">
+            <div class="title">
+                <h3>작업 결과물</h3>
+                <p>훈련생들과 수업과정에 대한 작업결과물</p>
+            </div>
+            <article>
+                <div id="carouselTicker-width-resize" class="carouselTicker">
+                    <ul class="carouselTicker__list">
+                        <li class="carouselTicker__item"><img src="img/result01.jpg" alt="결과물썸네일" /></li>
+                        <li class="carouselTicker__item"><img src="img/result02.jpg" alt="결과물썸네일" /></li>
+                        <li class="carouselTicker__item"><img src="img/result01.jpg" alt="결과물썸네일" /></li>
+                        <li class="carouselTicker__item"><img src="img/result01.jpg" alt="결과물썸네일" /></li>
+                        <li class="carouselTicker__item"><img src="img/result01.jpg" alt="결과물썸네일" /></li>
+                        <li class="carouselTicker__item"><img src="img/result01.jpg" alt="결과물썸네일" /></li>
+                        <li class="carouselTicker__item"><img src="img/result01.jpg" alt="결과물썸네일" /></li>
+                        <li class="carouselTicker__item"><img src="img/result01.jpg" alt="결과물썸네일" /></li>
+                        <li class="carouselTicker__item"><img src="img/result01.jpg" alt="결과물썸네일" /></li>
+                        <li class="carouselTicker__item"><img src="img/result01.jpg" alt="결과물썸네일" /></li>
+                        <li class="carouselTicker__item"><img src="img/result01.jpg" alt="결과물썸네일" /></li>
+                        <li class="carouselTicker__item"><img src="img/result01.jpg" alt="결과물썸네일" /></li>
+                        <li class="carouselTicker__item"><img src="img/result01.jpg" alt="결과물썸네일" /></li>
+                        
+                    </ul>
+                </div>
+            </article>
+        </section><!-- .cont04 end -->
+        <section class="cont05">
+            <div class="title">
+                <div class="member">
+                    <div>
+                        <h3>멤버쉽</h3>
+                        <p>이곳은 웹디자인에 필요한 정보제공 및 강의에 필요한 자료를 보관하고 관리하는 곳입니다.<br />사용에 제한이 있으며, 필요한 서비스는 관리자에게 문의해 주시기 바랍니다.</p>
+                        <a class="btn" href="tel : 010-1234-5678">010-1234-5678</a>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="img/last.jpg" alt="멤버쉽 소개" />
+                </div>
+            </div>
+        </section><!-- .cont05 end -->
+        <footer>
+            <div>
+                <img src="img/footer_logo.png" alt="하수정" />
+                <address>Copyright 2021. hasujeong All rights reserved.</address>
+            </div>
+        </footer>
+    </main>
+
+    <script src="lib/jquery-3.6.0.min.js"></script> 
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script><!-- 스와이퍼 -->
+    <script src="lib/jquery.carouselTicker.min.js"></script>
+    <script src="lib/start.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          pagination: {
+            el: ".swiper-pagination",
+          },
+          autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+          }
+        });
+      </script>
+</body>
+</html>
